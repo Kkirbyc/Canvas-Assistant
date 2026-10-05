@@ -1,0 +1,15 @@
+{
+  "entry": "index.html",
+  "keep": [
+    "api.html",
+    "browser.html",
+    "hosts.html",
+    "index.html",
+    "lifecycle.html",
+    "search.js",
+    "setup.html",
+    "study.css",
+    "study.js"
+  ],
+  "copied_dependencies": []
+}

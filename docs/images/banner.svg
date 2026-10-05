@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="560" viewBox="0 0 1440 560" role="img" aria-labelledby="title desc">
+<title id="title">Canvas 小助手 — Turn course material into understanding</title><desc id="desc">原创项目横幅：深绿色背景上的课件、知识网络和复习卡片，表达课程资料整理与自主学习。不是任何课程截图。</desc>
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#092c2b"/><stop offset="1" stop-color="#12453c"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#82c6a0" stop-opacity=".19"/><stop offset="1" stop-color="#82c6a0" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#a0d2b4" stroke-opacity=".07"/></pattern>
+ <filter id="shadow" x="-30%" y="-30%" width="170%" height="180%"><feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#001b18" flood-opacity=".3"/></filter>
+</defs>
+<rect width="1440" height="560" rx="24" fill="url(#bg)"/><rect width="1440" height="560" rx="24" fill="url(#grid)"/>
+<ellipse cx="1070" cy="250" rx="460" ry="350" fill="url(#glow)"/>
+<g font-family="Segoe UI,Microsoft YaHei,sans-serif">
+ <g transform="translate(76 63)"><rect width="40" height="40" rx="11" fill="#d5efb6"/><path d="M11 12h8c3 0 5 2 5 4v14c-1-2-3-3-6-3h-7zm18 0h-5" stroke="#174a3b" stroke-width="2" fill="none" stroke-linejoin="round"/><text x="57" y="27" fill="#cee3d6" font-size="16" letter-spacing="2">CANVAS ASSISTANT</text></g>
+ <text x="76" y="204" fill="#f4f6e9" font-size="68" font-weight="700" letter-spacing="-2">Canvas 小助手</text>
+ <text x="80" y="260" fill="#d8edce" font-size="29">把课程资料，变成真正的理解。</text>
+ <text x="80" y="312" fill="#a9c5b7" font-size="18">Lecture notes. Clear connections. Your study companion.</text>
+ <g transform="translate(80 370)" font-size="14" fill="#dce9de"><rect width="112" height="36" rx="18" fill="#2c5548"/><text x="19" y="24">WINDOWS</text><rect x="124" width="164" height="36" rx="18" fill="#2c5548"/><text x="143" y="24">PORTABLE SKILL</text><rect x="300" width="139" height="36" rx="18" fill="#2c5548"/><text x="319" y="24">OFFLINE HTML</text></g>
+ <path d="M80 471h435" stroke="#8eaf9a" stroke-opacity=".3"/>
+ <text x="80" y="504" fill="#94b2a1" font-size="14">An independent project by Kkirbyc</text>
+ <g filter="url(#shadow)">
+  <g transform="translate(814 83) rotate(-8 140 150)"><rect width="287" height="352" rx="16" fill="#d9e4cd"/><rect x="21" y="24" width="41" height="8" rx="4" fill="#608775"/><text x="22" y="69" font-size="13" fill="#436859" letter-spacing="2">COURSE MATERIAL</text><path d="M22 96h219M22 116h180M22 136h203" stroke="#9eb6a0" stroke-width="7" stroke-linecap="round"/><rect x="21" y="168" width="245" height="145" rx="9" fill="#c5d8bb"/><path d="m52 271 48-37 39 16 40-51 46 20" stroke="#50775d" stroke-width="3" fill="none"/><circle cx="179" cy="199" r="6" fill="#50775d"/></g>
+  <g transform="translate(913 115) rotate(5 180 150)"><rect width="377" height="308" rx="18" fill="#fafbf2"/><path d="M0 48h377" stroke="#dfe7d9"/><circle cx="25" cy="25" r="4" fill="#a5bba8"/><circle cx="41" cy="25" r="4" fill="#c0d0b9"/><circle cx="57" cy="25" r="4" fill="#d9e2ce"/><text x="231" y="29" fill="#63836c" font-size="10" letter-spacing="2">CONNECT THE IDEAS</text>
+   <g stroke="#a6bda1" stroke-width="2" fill="none"><path d="M88 135 182 181 289 114M182 181l-38 82m38-82 101 64M88 135l56 128m145-149-6 131"/></g>
+   <g fill="#e7eed8" stroke="#89a582" stroke-width="2"><circle cx="88" cy="135" r="24"/><circle cx="289" cy="114" r="22"/><circle cx="144" cy="263" r="18"/><circle cx="283" cy="245" r="22"/></g>
+   <circle cx="182" cy="181" r="37" fill="#185b47"/><path d="m168 180 10 10 19-23" fill="none" stroke="#d8eeb4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+   <g fill="#507455" font-size="15" text-anchor="middle"><text x="88" y="141">A</text><text x="289" y="120">B</text><text x="144" y="269">C</text><text x="283" y="251">D</text></g>
+  </g>
+  <g transform="translate(1039 365) rotate(-3)"><rect width="286" height="125" rx="14" fill="#d8edac"/><rect x="19" y="22" width="28" height="28" rx="8" fill="#235a40"/><path d="m27 36 5 5 9-11" stroke="#e4f2cc" stroke-width="2" fill="none" stroke-linecap="round"/><text x="59" y="42" fill="#254b35" font-size="16" font-weight="700">READY TO REVIEW</text><path d="M22 74h233M22 94h171" stroke="#93b071" stroke-width="6" stroke-linecap="round"/></g>
+ </g>
+ <g fill="#d6edb0"><path d="m1291 77 4 13 13 4-13 4-4 13-4-13-13-4 13-4z"/><circle cx="793" cy="439" r="5"/><circle cx="1358" cy="304" r="3"/></g>
+</g></svg>

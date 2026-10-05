@@ -1,0 +1,16 @@
+{
+  "entry": "index.html",
+  "keep": [
+    "demo-graph.pdf",
+    "index.html",
+    "notes.html",
+    "search.js",
+    "study.css",
+    "study.js",
+    "figures/page-1.png"
+  ],
+  "copied_dependencies": [
+    "demo-graph.pdf",
+    "figures/page-1.png"
+  ]
+}
