@@ -54,13 +54,13 @@ class Checks(unittest.TestCase):
             with tempfile.TemporaryDirectory() as d:
                 p=Path(d);src=p/'input';src.mkdir();(p/'private.txt').write_text('PRIVATE');(src/'notes.md').write_text('# Notes\n'+content)
                 if content.startswith('<'):
-                    render.build(src,p/'site');self.assertNotIn('<img src=x',(p/'site/notes.html').read_text())
+                    render.build(src,p/'site');self.assertNotIn('<img src=x',(p/'site/notes.html').read_text(encoding='utf-8'))
                 else:
                     with self.assertRaises(ValueError):render.build(src,p/'site')
     def test_reference_links_and_missing_nested_page(self):
         with tempfile.TemporaryDirectory() as d:
             p=Path(d);src=p/'in';src.mkdir();(src/'notes.md').write_text('# Notes\n[Plan][p]\n\n[p]: plan.md\n\n[Home](index.html)');(src/'plan.md').write_text('# Plan')
-            render.build(src,p/'out');self.assertIn('href="plan.html"',(p/'out/notes.html').read_text())
+            render.build(src,p/'out');self.assertIn('href="plan.html"',(p/'out/notes.html').read_text(encoding='utf-8'))
             (src/'notes.md').write_text('# Notes\n[Broken](nested/plan.html)')
             with self.assertRaises(ValueError):render.build(src,p/'out2')
     def test_cli_shim_avoids_shell(self):
